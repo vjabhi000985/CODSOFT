@@ -1,7 +1,7 @@
 We# ToDOList Application
 
 ## Introduction
-Welcome to the ToDoList application, a project developed during an internship at CODSOFT.
+Welcome to the ToDoList application, a project developed during an internship at CODSOFT. This is the first task of the internship.
 
 ## Project Description
 This project is a simple To-Do List application built using Python and Tkinter. The application follows the MVC (Model-View-Controller) architecture to organize the codebase efficiently.
