@@ -48,7 +48,30 @@ The project follows a structured layout to organize its components and files. Be
     - `todo_view.py` (Contains Tkinter-based view for the user interface)
   - `main.py` (Entry point of your application)
 
-## Bug (Edit tasks)
-## Tech
+## Bug in "Edit Task" Functionality
+### Issue Description
+There is a bug in the "Edit Task" functionality. When attempting to edit a task, we have to first delete the selected task and we can edit the field.
+### Code Sample
+```python
+ def edit_task(self):
+    	selected_indices = self.task_listbox.curselection()
+    	if selected_indices:
+    		selected_index = selected_indices[0]
+    		selected_task = self.task_listbox.get(selected_index)
+
+    		self.task_input.delete(0, tk.END)
+    		self.task_input.insert(0, selected_task)
+        # The above lines do not properly set the input field with the selected task text
+        # Additional code is needed to handle this issue.
+```
+Feel free to contribute or provide insights on the mentioned issue!
+
+## Technology Used
+The ToDoList application is developed using the following technologies:
+
+- *Sublime Text 4:* The text editor used for coding and project management.
+- *Python:* The programming language chosen for the application's backend logic.
+- *Tkinter:* The Python library utilized for creating the graphical user interface.
+
 ## Credits
 Developed by *Pandey Abhishek Nath Roy [me]*
