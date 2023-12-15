@@ -1,4 +1,4 @@
-# ToDOList Application
+We# ToDOList Application
 
 ## Introduction
 Welcome to the ToDoList application, a project developed during an internship at CODSOFT.
@@ -36,8 +36,8 @@ The project follows a structured layout to organize its components and files. Be
     - `todo_controller.py` (Contains controller logic for handling data and user input)
   - *`model/`* 
     - *`__pycache__`*
-    - `__init__.py
-    - `todo_model.py (Contains model classes, representing the data structure)
+    - `__init__.py`
+    - `todo_model.py` (Contains model classes, representing the data structure)
   - *`tests/`*: (Directory for test code)
     - `test.py/` (Test code for testing various functionalities)
   - *`view/`*
