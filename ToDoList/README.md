@@ -1,4 +1,4 @@
-We# ToDOList Application
+# ToDOList Application
 
 ## Introduction
 Welcome to the ToDoList application, a project developed during an internship at CODSOFT. This is the first task of the internship.
