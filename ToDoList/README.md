@@ -1,5 +1,8 @@
 # ToDOList Application
 
+## Introduction
+Welcome to the ToDoList application, a project developed during an internship at CODSOFT.
+
 ## Project Description
 This project is a simple To-Do List application built using Python and Tkinter. The application follows the MVC (Model-View-Controller) architecture to organize the codebase efficiently.
 
@@ -22,4 +25,6 @@ The application follows the MVC architecture for better code organization:
 
 ## ToDoList(Demo) 
 ![90b46717-102f-422c-b218-e904ae291daf](https://github.com/vjabhi000985/CODSOFT/assets/46738718/f266f90c-a45f-46c3-8c7e-bc478b92972c)
+
+## File Structure
 
