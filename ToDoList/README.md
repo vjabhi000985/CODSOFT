@@ -31,7 +31,7 @@ The project follows a structured layout to organize its components and files. Be
 
 - *`ToDoList/`*
   - *`controller/`*
-    - *`__pycache__/`* 
+    - *`__pycache__`* 
     - `__init__.py` 
     - `todo_controller.py` (Contains controller logic for handling data and user input)
   - *`model/`* 
