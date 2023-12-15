@@ -27,4 +27,28 @@ The application follows the MVC architecture for better code organization:
 ![90b46717-102f-422c-b218-e904ae291daf](https://github.com/vjabhi000985/CODSOFT/assets/46738718/f266f90c-a45f-46c3-8c7e-bc478b92972c)
 
 ## File Structure
+The project follows a structured layout to organize its components and files. Below is an overview of the main directories and files:
 
+- *`ToDoList/`*
+  - *`controller/`*
+    - *`__pycache__/`* 
+    - `__init__.py` 
+    - `todo_controller.py` (Contains controller logic for handling data and user input)
+  - *`model/`* 
+    - *`__pycache__`*
+    - `__init__.py
+    - `todo_model.py (Contains model classes, representing the data structure)
+  - *`tests/`*: (Directory for test code)
+    - `test.py/` (Test code for testing various functionalities)
+  - *`view/`*
+    - *`__pycache__`*
+    - *`icons/`*
+      - `icon.ico` (Icon file used for the application)
+    - `__init__.py`
+    - `todo_view.py` (Contains Tkinter-based view for the user interface)
+  - `main.py` (Entry point of your application)
+
+## Bug (Edit tasks)
+## Tech
+## Credits
+Developed by *Pandey Abhishek Nath Roy [me]*
